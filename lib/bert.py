@@ -10,7 +10,7 @@ from transformers import BertTokenizer, BertModel, DistilBertTokenizer, DistilBe
 import random
 import matplotlib.pyplot as plt
 
-from querycat import config
+from old import config
 
 random.seed(config.RANDOM_SEED)
 np.random.seed(config.RANDOM_SEED)
